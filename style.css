@@ -1,0 +1,193 @@
+@font-face{
+  font-family: "SamsungOne";
+  src: url("fonts/SamsungOneLatinWeb-400.woff2") format('woff');
+}
+@font-face{
+  font-family: "SamsungOne";
+  src: url("fonts/SamsungOneLatinWeb-700.woff2") format('woff');
+  font-weight:bold;
+}
+@font-face {
+  font-family: "SamsungSharpSans";
+  src: url("fonts/SamsungSharpSans-Bold.woff") format('woff');
+  font-weight: bold;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(images/sgmcc-background_v1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+
+h1 {
+  font-family: SamsungSharpSans;
+  font-weight: bold;
+  font-size: 88px;
+  color: white;
+}
+h2 {
+  font-family: SamsungOne;
+
+  font-size: 22px;
+  max-width: 800px;
+  color: white;
+}
+h3{
+  font-family: SamsungOne;
+  font-size: 13px;
+  color: white;
+  max-width: 800px;
+  margin-bottom: 50px;
+}
+h4{
+  font-family: SamsungOne;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+h5{
+  font-family: SamsungOne;
+  color: white;
+}
+.btn {
+  font-weight: 700c;
+  font-size: 13px;
+  border-radius: 10px;
+  border-width: 2px;
+  text-transform: uppercase;
+}
+.col-9{
+  align-items: left;
+}
+.btn-primary{
+  font-family: SamsungOne;
+  font-weight:bold;
+  background-color: black;
+  border-color: white;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-border-color: white;
+  --bs-btn-active-color: white;
+  --bs-btn-active-bg: white;
+  --bs-btn-disabled-bg: rgb(179,179,179);
+  --bs-btn-disabled-border-color: rgb(179, 179, 179);
+}
+.buffer-0{
+  height: 100px;
+}
+.buffer-1 {
+  height: 160px;
+}
+.buffer-2 {
+  height: 60px;
+}
+.buffer-3{
+  height: 2.5rem;
+}
+.buffer-4{
+  height: 18.75rem;
+}
+.btn-xl{
+  padding: 1rem 1.8rem;
+}
+@media screen and (min-width: 641px){
+  img{
+    max-width: 400px;
+    height:auto;
+  }
+  h1 {
+    max-width: 1000px;
+    font-size: 88px;
+  }
+  h2 {
+    font-size: 22px;
+    line-height: 28px;
+    max-width: 800px;
+  }
+  h3 {
+    font-size: 13px;
+    max-width: 800px;
+  }
+  h4{
+    font-size: 22px;
+    line-height: 28px;
+  }
+  h5{
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .buffer-0{
+    height: 100px;
+  }
+  .buffer-1 {
+    height: 160px;
+  }
+  .buffer-2 {
+    height: 60px;
+  }
+  .buffer-3{
+    height: 2.5rem;
+  }
+  .buffer-4{
+    height: 18.75rem;
+  }
+  .btn-xl{
+    padding: 1rem 1.8rem;
+  }
+}
+@media screen and (max-width: 640px){
+  img{
+    max-width: 175px;
+    height:auto;
+  }
+  h1 {
+    max-width: 400px;
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 350px;
+  }
+  h3 {
+    font-size: 13px;
+    max-width: 800px;
+  }
+  h4{
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  h5{
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .col-9{
+    padding-left: 52px;
+  }
+  .buffer-0{
+    height: 64px;
+  }
+  .buffer-1 {
+    height: 80px;
+  }
+  .buffer-2 {
+    height: 32px;
+  }
+  .buffer-3{
+    height: 20px;
+  }
+  .buffer-4{
+    height: 18.75rem;
+  }
+  .btn-xl{
+    padding: 1rem 1.8rem;
+  }
+}
