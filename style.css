@@ -26,7 +26,12 @@ html {
   background-color: black;
 }
 
-
+p {
+  font-family: SamsungOne;
+}
+li {
+  font-family: SamsungOne;
+}
 
 h1 {
   font-family: SamsungSharpSans;
