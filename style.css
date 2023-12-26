@@ -150,10 +150,7 @@ h5{
   }
 }
 @media screen and (max-width: 640px){
-  img{
-    max-width: 80%;
-    height:auto;
-  }
+
   h1 {
     max-width: 400px;
     font-size: 28px;
