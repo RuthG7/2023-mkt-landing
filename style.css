@@ -117,7 +117,7 @@ h5{
 }
 @media screen and (min-width: 641px){
   img{
-    max-width: 400px;
+    max-width: 80%;
     height:auto;
   }
   h1 {
