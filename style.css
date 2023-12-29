@@ -116,10 +116,10 @@ h5{
   padding: 1rem 1.8rem;
 }
 @media screen and (min-width: 641px){
-  img{
+  /* img{
     max-width: 80%;
     height:auto;
-  }
+  } */
   h1 {
     max-width: 1000px;
     font-size: 80px;
@@ -161,10 +161,10 @@ h5{
   }
 }
 @media screen and (max-width: 640px){
-  img{
+  /* img{
     max-width: 80%;
     height:auto;
-  }
+  } */
   h1 {
     max-width: 400px;
     font-size: 28px;
